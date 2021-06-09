@@ -51,10 +51,12 @@ button{
 .one{
     background-color: transparent;
     border: 1px solid grey;
+    font-size: large;
 }
 .two{
     background-color: black;
     color: white;
+    font-size: large;
 }
 .show-nav-dropdown{
     height: max-content;
@@ -82,6 +84,7 @@ p{
 .three{
     background: yellow;
     margin-top: 20px;
+    font-size: large;
 }
 /* Destop Nav-Bar */
 @media(min-width:1100px){
@@ -103,11 +106,13 @@ p{
     .one{
         background-color: transparent;
         border: none;
+        font-size: 2vh;
     }
     .two{
         background-color: rgb(44, 44, 219);
         color: white;
         border: none;
+        font-size: 2ch;
     }
     .Hamburger{
         display: none;
@@ -126,6 +131,7 @@ p{
         background: yellow;
         font-size: 3vh;
         margin-top: 20px;
+        font-size: 2.5vh;
     }
     .section-one{
         background: white;
