@@ -116,10 +116,11 @@ p{
     padding-top: 35px;
 }
 .personalize p{
-    font-size: 5vh;
+    font-size: 4vh;
+    width: 100%;
 }
 .personalize h3{
-   font-size: 7vh;
+   font-size: 6vh;
 }
 
 /* Destop Nav-Bar */
@@ -192,6 +193,7 @@ p{
     }
     .personalize p{
         font-size: 3.5vh;
+        width: 100%;
     }
     .personalize h3{
         font-size: 6vh;
