@@ -116,7 +116,11 @@ p{
 }
 .personalize p{
     padding-top: 10px;
+    font-size: 4vh;
 }
+.personalize h3{
+    font-size: 4.5vh;
+ }
 /* .section-two{
     background: rgb(80, 80, 230);
 }
