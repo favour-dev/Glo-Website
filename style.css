@@ -94,6 +94,31 @@ p{
 /* section-two */
 .section-two{
     background: rgb(80, 80, 230);
+    color: white;
+    padding-top: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.icon img{
+    max-width: 80%;
+}
+.personalize{
+  width: 50%;
+  padding-left: 10px;
+}
+.personalize p{
+    padding-top: 10px;
+}
+/* .section-two{
+    background: rgb(80, 80, 230);
 }
 .icon{
     display: grid;
@@ -107,8 +132,7 @@ p{
 .personalize{
     display: grid;
     grid-template-rows: auto auto;
-    justify-content: center;
-    width: 30%;
+    width: 100%;
     margin: 0 auto;
 }
 .icon img{
@@ -121,7 +145,7 @@ p{
 }
 .personalize h3{
    font-size: 6vh;
-}
+} */
 
 /* Destop Nav-Bar */
 @media(min-width:1100px){
@@ -184,8 +208,28 @@ p{
         padding-top: 0;
     } 
     /* section two */
-
     .content{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .box{
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .personalize p{
+        width: 100%;
+    }
+    .personalize{
+        width: 80%;
+    }
+    /* section two for tablet */
+    @media (min-width:700px) {
+        
+    }
+
+    /* .content{
         width: 80%;
         margin: 0 auto;
         display: grid;
@@ -198,7 +242,7 @@ p{
     .personalize h3{
         font-size: 6vh;
     }
-     
+      */
 }
 .container{
     width: 100%;
