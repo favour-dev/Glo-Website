@@ -48,7 +48,7 @@ h3{
     overflow-y: hidden;
     
 }
-button{
+#menu-items button{
     display: flex ;
     flex-direction: column;
     padding: 5px 15px;
@@ -90,11 +90,18 @@ p{
     font-size: 3vh;
     padding-top: 20px;
 }
+.yoga-writeup p{
+    padding-bottom: 20px;
+}
 .three{
     background: yellow;
     margin-top: 20px;
     font-size: large;
     border: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
 }
 /* section-two */
 .section-two{
@@ -105,6 +112,7 @@ p{
 .content{
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 .box{
     display: flex;
@@ -134,12 +142,14 @@ p{
      padding-bottom: 50px;
  }
  .devices img{
-     margin-top: -80px;
+     margin-top: -60px;
      max-width: 100%;
  }
  .brand-logo{
      display:grid;
-     grid-template-columns: auto auto auto auto;
+     grid-template-columns: auto auto auto;
+     /* justify-content: center; */
+     align-items: center;
  }
  .content-two{
      width: 80%;
@@ -148,6 +158,14 @@ p{
  .brand-logo img{
      max-width: 100%;
      padding-bottom: 50px;
+ }
+ .grid-item img{
+     width: 90%;
+ 
+ }
+ .item7{
+    grid-column: 1/ span 3;
+    align-self: center;
  }
  .practice{
      padding-top: 50px;
@@ -162,11 +180,15 @@ p{
     color: white;
     padding: 10px 18px;
     border: none;
+    border-radius: 15px;
+    width: 50%;
+    font-size: large;
 }
 /* section-four */
-.section-four{
-    background: white;
+/* .section-four{
+    background: rgb(228, 190, 190);
     margin-top: 90px;
+    height
 }
 .content-three img{
     max-width:100% ;
@@ -181,9 +203,6 @@ p{
     margin-top: 40px;
     margin-bottom: 0px;
 }
-/* .live-writeup{
-  
-} */
 .live-writeup p{
     width: 80%;
 }
@@ -192,7 +211,7 @@ p{
     color: white;
     border: none;
     margin-top: 20px;
-}
+} */
  
 
 /* Destop */
@@ -243,6 +262,7 @@ p{
         margin-top: 20px;
         font-size: 2.5vh;
         border: none;
+        width: 40%;
     }
     .section-one{
         background: white;
@@ -274,6 +294,12 @@ p{
         width: 80%;
     }
     /* section three */
+    .devices img{
+        margin-top: -100px;
+    }
+    .content{
+        padding-bottom: 50px;
+    }
     .brand-logo{
         display:flex;
         flex-direction: row;
@@ -286,7 +312,6 @@ p{
     .item7{
         width: 20%;
     }
-    /* section three */
     .practice h3{
         font-size: 5vh;
     }
@@ -294,9 +319,10 @@ p{
         background: grey;
         color: white;
         padding: 15x 20px;
+        width: 20%;
     }
     /* section four */
-    .live{
+    /* .live{
         position: relative;
         top: -350px;
         margin-top: 5px;
@@ -310,8 +336,23 @@ p{
     }
     .content-three img{
         max-width:100% ;
-        
     }
+    .five{
+        color: white;
+        background: red;
+        padding: 10px 10px;
+        border-radius: 15px;
+        width: 25%;
+    }
+    .section-four{
+        background: rgb(228, 190, 190);
+        margin-top: 90px;
+    } */
+    .section-four{
+        background: rgb(233, 207, 207);
+    }
+ 
+    
     /* section two for tablet
     @media (min-width:700px) {
         
