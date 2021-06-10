@@ -14,6 +14,10 @@ h1{
     font-family: 'Merienda', cursive;
     padding: 5px;
 }
+h3{
+    font-size: 4.5vh;
+} 
+
 .nav-bar{
     background-color:cadetblue ;
     display: flex;
@@ -90,12 +94,13 @@ p{
     background: yellow;
     margin-top: 20px;
     font-size: large;
+    border: none;
 }
 /* section-two */
 .section-two{
     background: rgb(80, 80, 230);
     color: white;
-    padding-top: 15px;
+    padding: 60px 0;
 }
 .content{
     display: flex;
@@ -121,35 +126,44 @@ p{
 .personalize h3{
     font-size: 4.5vh;
  }
-/* .section-two{
-    background: rgb(80, 80, 230);
-}
-.icon{
-    display: grid;
-    grid-template-rows: auto auto;
-    justify-content: center;
-}
-.content{
-    width: 35%;
-    margin: 0 auto;
-}
-.personalize{
-    display: grid;
-    grid-template-rows: auto auto;
-    width: 100%;
-    margin: 0 auto;
-}
-.icon img{
-    max-width: 100%;
-    padding-top: 35px;
-}
-.personalize p{
+ /* section-three */
+ .section-three{
+     background: white;
+ }
+ .devices{
+     padding-bottom: 50px;
+ }
+ .devices img{
+     margin-top: -80px;
+     max-width: 100%;
+ }
+ .brand-logo{
+     display:grid;
+     grid-template-columns: auto auto auto auto;
+ }
+ .content-two{
+     width: 80%;
+     margin: 0 auto;
+ }
+ .brand-logo img{
+     max-width: 100%;
+     padding-bottom: 50px;
+ }
+ .practice{
+     padding-top: 50px;
+     
+ }
+ .practice p{
     font-size: 4vh;
-    width: 100%;
 }
-.personalize h3{
-   font-size: 6vh;
-} */
+.four{
+    background: grey;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+}
+ 
+ 
 
 /* Destop Nav-Bar */
 @media(min-width:1100px){
@@ -198,6 +212,7 @@ p{
         font-size: 3vh;
         margin-top: 20px;
         font-size: 2.5vh;
+        border: none;
     }
     .section-one{
         background: white;
@@ -228,10 +243,32 @@ p{
     .personalize{
         width: 80%;
     }
-    /* section two for tablet */
+    /* section three */
+    .brand-logo{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .grid-item{
+        margin-left: 50px;
+        padding-top: 15px;
+    }
+    .item7{
+        width: 20%;
+    }
+    /* section three */
+    .practice h3{
+        font-size: 5vh;
+    }
+    .four{
+        background: grey;
+        color: white;
+        padding: 15x 20px;
+    }
+    /* section two for tablet
     @media (min-width:700px) {
         
-    }
+    } */
 
     /* .content{
         width: 80%;
