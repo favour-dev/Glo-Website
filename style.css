@@ -197,6 +197,7 @@ p{
 }
 .live{
     margin-top: -140px;
+    width: 95%;
 }
 .live-writeup{
     padding-top: 30px;
@@ -214,6 +215,7 @@ p{
     padding: 10px 10px;
     border-radius: 15px;
     width: 100%;
+    border: none;
 }
 
 /*
@@ -395,6 +397,7 @@ p{
         padding: 10px 10px;
         border-radius: 15px;
         width: 20%;
+        border: none;
     }
  
     
