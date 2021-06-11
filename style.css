@@ -9,15 +9,20 @@ body{
 img{
     width: 100%;
 }
+h3{
+    font-size: 4.5vh;
+} 
+p{
+    font-size: 4vh;
+}
+button{
+    font-size: large;
+}
 /* Nav-bar */
 h1{
     font-family: 'Merienda', cursive;
     padding: 5px;
 }
-h3{
-    font-size: 4.5vh;
-} 
-
 .nav-bar{
     background-color:cadetblue ;
     display: flex;
@@ -169,6 +174,7 @@ p{
  }
  .practice{
      padding-top: 50px;
+     text-align: center;
      
  }
  .practice p{
@@ -185,11 +191,32 @@ p{
     font-size: large;
 }
 /* section-four */
-/* .section-four{
+.section-four{
     background: rgb(228, 190, 190);
-    margin-top: 90px;
-    height
+    margin-top: 30px;
 }
+.live{
+    margin-top: -140px;
+}
+.live-writeup{
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.live-writeup p{
+    font-size: 4vh;
+}
+.five{
+    color: white;
+    background: red;
+    margin-top: 15px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+/*
 .content-three img{
     max-width:100% ;
 }
@@ -234,7 +261,7 @@ p{
     .one{
         background-color: transparent;
         border: none;
-        font-size: 2vh;
+        font-size: large;
     }
     .two{
         background-color: rgb(44, 44, 219);
@@ -321,6 +348,9 @@ p{
         padding: 15x 20px;
         width: 20%;
     }
+    .practice{
+        text-align: left;
+    }
     /* section four */
     /* .live{
         position: relative;
@@ -350,6 +380,21 @@ p{
     } */
     .section-four{
         background: rgb(233, 207, 207);
+        display: none;
+    }
+    .live-writeup{
+        padding-top: 30px;
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .five{
+        color: white;
+        background: red;
+        margin-top: 15px;
+        padding: 10px 10px;
+        border-radius: 15px;
+        width: 20%;
     }
  
     
